@@ -189,7 +189,7 @@ a { color: inherit; text-decoration: none; }
   transition: transform .3s ease;
 }
 .hero__photo:hover .hero__frame { transform: translateY(-6px) rotate(-.6deg); }
-.hero__frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hero__frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; display: block; }
 .hero__frame::after {
   content: ""; position: absolute; inset: 0; pointer-events: none;
   background: linear-gradient(160deg, transparent 55%, color-mix(in srgb, var(--navy) 55%, transparent));
